@@ -52,6 +52,18 @@ input {
     font-size: 15px;
 }
 
+#login {
+    width: 292px; /* Adjust as needed */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; /* This applies to the input text, not directly to the placeholder */
+}
+
+#login::placeholder {
+    color: grey; /* Style your placeholder text as needed */
+    /* Direct text-overflow styling is not applicable here */
+}
+
 .inputs {
     margin-bottom: 0;
 }
