@@ -1,0 +1,28 @@
+display: grid;
+фракції 2fr, 6fr...
+grid-template-rows
+grid-area
+.grid{
+display: grid;
+height: 100vh;
+grid-template-areas:
+"header header header"
+"article-1 article-2 article-3"
+"footer footer footer";
+}
+grid-template-rows: 2fr 6fr 2fr;
+grid-template-columns: 1fr 1fr 1fr;
+}
+header, article, footer{
+background-color: darkslategrey;
+border: 1px solid;
+}
+header{
+grid-area: header ;
+}
+footer{
+grid-area: footer ;
+}
+
+адаптація
+@media screen and (min-width: 600px) and (max-width: 1200px) {}
