@@ -1,3 +1,73 @@
 * {
     margin: 0;
 }
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: cornflowerblue;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+#a-links {
+    display: flex;
+    margin: 10px 0 10px;
+    gap: 3px;
+}
+
+#big-banner {
+    height: 42%;
+    width: 99.7%;
+    background: cornflowerblue;
+    text-align: right;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.text-span {
+    padding: 10px 20px;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+#banners-four {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 40%;
+    gap: 10px;
+    margin-bottom: 19px;
+}
+
+.one-of-four {
+    text-align: right;
+    width: 49.5%;
+    height: 50%;
+    background: cornflowerblue;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99.7%;
+    height: 5vh;
+    background: cornflowerblue;
+    color: white;
+    font-size: 24px;
+}
+
