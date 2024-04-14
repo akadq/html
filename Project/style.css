@@ -397,7 +397,7 @@ nav > ul > .img-coffee > a {
 
 .triple-round-image-element {
     flex-shrink: 0;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     border: #9EA087 solid 1px;
 }
 
@@ -462,7 +462,7 @@ footer {
 #fourrows {
     display: flex;
     justify-content: space-evenly;
-    gap: 151px;
+    gap: 80px;
 }
 
 #fourrows > .footer-row > #footer-logo > .logo-coffee > a {
@@ -478,7 +478,7 @@ footer {
 .footer-row {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     top: 40px;
     height: 250px;
@@ -523,7 +523,7 @@ footer {
     justify-content: left;
     gap: 30px;
     position: relative;
-    bottom: 70px;
+    bottom: 13px;
 
 }
 
