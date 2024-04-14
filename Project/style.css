@@ -333,6 +333,8 @@ nav > ul > .img-coffee > a {
     font-weight: 600;
     line-height: 130%; /* 55.9px */
     width: 810px;
+    letter-spacing: 0;
+
 }
 
 .contacts {
