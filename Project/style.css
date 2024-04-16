@@ -234,7 +234,7 @@ nav > ul > .img-coffee > a {
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 130%; /* 41.6px */
+    /*line-height: 130%; !* 41.6px *!*/
     margin: 10px 0 10px 0;
 }
 
@@ -247,6 +247,11 @@ nav > ul > .img-coffee > a {
     line-height: 160%; /* 25.6px */
     opacity: 0.6;
     width: 225px;
+}
+
+.href-paragraph {
+    text-decoration: none;
+    color: #000;
 }
 
 #thirdpage {
