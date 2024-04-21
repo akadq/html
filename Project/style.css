@@ -35,8 +35,8 @@ ul > li > a:hover {
 }
 
 #firstpage {
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    /*height: 100%;*/
 }
 
 #seventeen {
@@ -87,13 +87,14 @@ nav > ul > .img-coffee > a {
 }
 
 .keep-center {
-    margin-left: 300px;
+    width: 1146px;
+    margin: 0 auto;
 }
 
 #keep {
     position: relative;
     top: 210px;
-    left: 145px;
+    /*left: 145px;*/
     height: 210px;
     width: 524px;
     margin-bottom: 26px;
@@ -111,7 +112,7 @@ nav > ul > .img-coffee > a {
 #the-coffee {
     position: relative;
     top: 210px;
-    left: 145px;
+    /*left: 145px;*/
     height: 210px;
     width: 524px;
 }
@@ -128,7 +129,7 @@ nav > ul > .img-coffee > a {
 
 #buy-now {
     position: relative;
-    left: 145px;
+    /*left: 145px;*/
     top: 110px;
     display: flex;
     justify-content: center;
@@ -150,8 +151,8 @@ nav > ul > .img-coffee > a {
 #text-2 {
     position: relative;
     top: 110px;
-    left: 145px;
-    width: 590px;
+    /*left: 145px;*/
+    /*width: 590px;*/
 }
 
 #thirdpage>.text-headers {
